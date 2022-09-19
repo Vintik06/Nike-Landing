@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.side1 {
+    background-color: #001738;
+    width: 450px;
+}
+.side2 {
+    background-color: #FFFAEC;
+    width: 750px;
+    position: relative;
+}
+header {
+    display: flex;
+}
+.img1 {
+    padding-top: 36px;
+    padding-left: 39px;
+    width: 46px;
+    height: 36px;
+}
+.image-1 {
+    display: flex;
+    padding-top: 675px;
+    padding-left: 35px;
+    padding-bottom: 23px;
+    gap: 30px;
+}
+.header-text {
+    display: flex;
+    padding-top: 31px;
+    padding-left: 17px;
+    gap: 40px;
+    width: 283px;
+    height: 19px;
+}
+.img2 {
+    padding-top: 33px;
+    padding-left: 337px;
+    width: 20px;
+    height: 21px;
+}
+.img3 {
+    padding-top: 33px;
+    padding-left: 24px;
+    padding-right: 51px;
+    width: 17.49px;
+    height: 17.49px;
+}
+main {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.image-cross {
+    position: absolute;
+    top: 0;
+    left: -500px;
+}
+.p1 {
+    padding-top: 223px;
+    padding-right: 230px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 200px;
+    height: 19px;
+}
+.p2 {
+    padding-top: 16px;
+    padding-right: 110px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 316px;
+    height: 47px;
+}
+.p3 {
+    padding-top: 16px;
+    padding-right: 118px;
+    padding-bottom: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 314px;
+    height: 114px;    
+}
+.add {
+    padding-right: 186px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 51px;
+    gap: 10px;
+    width: 240px;
+    height: 35px;
+    background: #001738;
+    border-radius: 64px;
+} 
+.p4 {
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 8px;
+    width: 138px;
+    height: 19px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;   
+    color: #C58721;    
+} 
+.image-main {
+    display: flex;
+    padding-top: 39px;
+    padding-right: 51px;
+    gap: 35px;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.image-last {
+    background-color: #001738;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
